@@ -1,0 +1,27 @@
+<div class="container">
+	<div class="row">
+		<form action='/search' method='post' class="center" role="form" id="s">
+		  <div class="col-xs-8">
+		    <input type="text" class="form-control" id="q"  name="q" placeholder="">
+		  </div>
+		  <button type="submit" class="btn btn-default">Search</button>
+		</form>
+	</div>
+</div>
+
+<hr>
+
+<div class="frame-container">
+    <div style="float:left; width:50%;">
+      Bing Search Results:<br/>
+      <iframe id="leftArea"  src="http://www.bing.com/search?q=apple" scrolling="yes" width="100%" height="800"></iframe>
+    </div>
+    <div style="float:right; width:50%; height:500px;">
+    	Baidu Search Results:<br/>
+      <iframe id="rightArea" src="http://www.baidu.com/s?wd=苹果" scrolling="yes" width="100%" height="800"></iframe>
+    </div>
+</div>
+
+
+<div class="row"></div>
+<hr>
